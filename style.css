@@ -33,7 +33,7 @@ header ul a {
   color: black;
 }
 
-button {
+.btn_header {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -44,10 +44,24 @@ button {
   color: aliceblue;
   background-color: #21C05C;
 }
-button:hover {
+.btn_header:hover {
   background-color: #16A34A;
 }
 
+.ichigo_hero {
+  display: flex;
+}
+.ichigo_hero .hero_text_h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ichigo_hero .hero_text_h1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  font-size: 60px;
+}
 @media (max-width: 700px) {
   header {
     padding: 10px;
