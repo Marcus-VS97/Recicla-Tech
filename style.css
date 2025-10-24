@@ -105,16 +105,32 @@ header ul a {
   gap: 10px;
 }
 
-.container_dados {
+.pitter_pai_3 {
+  margin-top: 137px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #F3F5F8;
+  padding: 46px 200px;
+}
+.pitter_pai_3 .dados_num {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.container_dados .dados_num {
-  display: flex;
+.pitter_pai_3 .dados_num_verd {
+  padding: 50;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  color: #16A34A;
 }
-.container_dados .dados text {
-  display: flex;
+.pitter_pai_3 .dados_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4B5563;
 }
 
 @media (max-width: 700px) {
